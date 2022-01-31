@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node name="user" pkg="assignment3" type="user_controller.py"  output="screen"  />
+   
+   <node name="case1" pkg="assignment3" type="case1.py"  output="screen" />
+
+ <node name="keyboard" pkg="assignment3" type="keyboard_interface.py"  output="screen"  />
+
+</launch>
+
+
